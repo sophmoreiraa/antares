@@ -32,21 +32,21 @@ function soma ()
 
 function dividir ()
 {
-    let num1 = document.getElementById("num1").value;
-    let num2 = document.getElementById("num2").value;
+    let num1 = document.getElementById("num3").value;
+    let num2 = document.getElementById("num4").value;
     document.getElementById("resultado2").innerHTML = parseFloat (num1 ) / parseFloat (num2);
 }
 
 function multiplicar ()
 {
-    let num1 = document.getElementById("num1").value;
-    let num2 = document.getElementById("num2").value;
+    let num1 = document.getElementById("num5").value;
+    let num2 = document.getElementById("num6").value;
     document.getElementById("resultado3").innerHTML = parseFloat (num1 ) * parseFloat (num2);
 }
 
 function subtrair ()
 {
-    let num1 = document.getElementById("num1").value;
-    let num2 = document.getElementById("num2").value;
+    let num1 = document.getElementById("num7").value;
+    let num2 = document.getElementById("num8").value;
     document.getElementById("resultado4").innerHTML = parseFloat (num1 ) - parseFloat (num2);
 }
