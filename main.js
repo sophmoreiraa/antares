@@ -9,5 +9,5 @@ function showcolor()
 
 function shownome ()
 {
-    let ususario = document.getElementById("nome").ariaValueMax;
+    let ususario = document.getElementById("nome").value;
 }
