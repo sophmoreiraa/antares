@@ -9,7 +9,7 @@ function showcolor()
 
 function shownome ()
 {
-    let ususario = document.getElementById("nome").value;
-    document.getElementById("mensagem").innerHTML = "Meu nome é:" + ususario;
+    let usuario = document.getElementById("nome").value;
+    document.getElementById("mensagem").innerHTML = "Meu nome é:" + usuario;
     document.getElementById("nome").value = "";
 }
